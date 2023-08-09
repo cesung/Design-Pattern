@@ -1,3 +1,5 @@
 .vscode
-**/bin/*
-**/obj/*
+bin/
+obj/
+*.sln
+
