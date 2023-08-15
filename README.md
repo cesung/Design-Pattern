@@ -8,7 +8,7 @@
 | ------- | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | Ch. 1   | Strategy Pattern   | [Strategy Pattern](./Ch1/Strategy/)                                                                               |
 | Ch. 2   | Observer Pattern   | [Observer Pattern](./Ch2/Observer/) <br/> [Observer Pattern - Using C# EventHandler](./Ch2/Observer_EventHandler) |
-| Ch. 3   | Decorating Pattern |                                                                                                                   |
+| Ch. 3   | Decorating Pattern | [Observer Pattern](./Ch3/Decorator/)                                                                              |
 | Ch. 4   | --                 |                                                                                                                   |
 | Ch. 5   | --                 |                                                                                                                   |
 | Ch. 6   | --                 |                                                                                                                   |
