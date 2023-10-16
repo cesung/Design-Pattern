@@ -1,20 +1,13 @@
-using System.ComponentModel;
-
 namespace TemplateMethod
 {
-    public class Coffee
+    public class Coffee : CaffineBeverage
     {
-        public void PrepareRecipe()
+        public override void PrepareRecipe()
         {
             BoilWater();
             BrewCoffeeGrinds();
             PourInCup();
             AddSugarAndMilk();
-        }
-
-        public void BoilWater()
-        {
-            Console.WriteLine("Boiling Water");
         }
 
         public void BrewCoffeeGrinds()
@@ -25,11 +18,6 @@ namespace TemplateMethod
         public void AddSugarAndMilk()
         {
             Console.WriteLine("Adding Sugar and Milk");
-        }
-
-        public void PourInCup()
-        {
-            Console.WriteLine("Pouring into Cup");
         }
     }
 }

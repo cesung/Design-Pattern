@@ -1,18 +1,13 @@
 namespace TemplateMethod
 {
-    public class Tea
+    public class Tea : CaffineBeverage
     {
-        public void PrepareRecipe()
+        public override void PrepareRecipe()
         {
             BoilWater();
             SteepTeaBag();
             PourInCup();
             AddLemon();
-        }
-
-        public void BoilWater()
-        {
-            Console.WriteLine("Boiling Water");
         }
 
         public void SteepTeaBag()
@@ -23,11 +18,6 @@ namespace TemplateMethod
         public void AddLemon()
         {
             Console.WriteLine("Adding Lemon");
-        }
-
-        public void PourInCup()
-        {
-            Console.WriteLine("Pouring into Cup");
         }
     }
 }
