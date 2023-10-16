@@ -2,7 +2,16 @@ namespace TemplateMethod
 {
     public abstract class CaffineBeverage
     {
-        public abstract void PrepareRecipe();
+        public void PrepareRecipe()
+        {
+            BoilWater();
+            Brew();
+            PourInCup();
+            AddCodiments();
+        }
+
+        public abstract void Brew();
+        public abstract void AddCodiments();
 
         public void BoilWater()
         {
