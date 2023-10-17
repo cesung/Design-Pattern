@@ -11,5 +11,20 @@ namespace TemplateMethod
         {
             Console.WriteLine("Adding Sugar and Milk");
         }
+
+        public override bool CheckCustomerWantsCodiments()
+        {
+            Console.WriteLine("Milk and sugar?[Y/y]");
+            var answer = Convert.ToString(Console.ReadLine());
+
+            if (string.Equals(answer ?? "no", "y"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

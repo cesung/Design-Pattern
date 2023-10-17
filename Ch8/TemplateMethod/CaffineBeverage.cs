@@ -7,7 +7,10 @@ namespace TemplateMethod
             BoilWater();
             Brew();
             PourInCup();
-            AddCodiments();
+            if (CheckCustomerWantsCodiments())
+            {
+                AddCodiments();
+            }
         }
 
         public abstract void Brew();
@@ -21,6 +24,11 @@ namespace TemplateMethod
         public void PourInCup()
         {
             Console.WriteLine("Pouring into Cup");
+        }
+
+        public virtual bool CheckCustomerWantsCodiments()
+        {
+            return true;
         }
     }
 }
