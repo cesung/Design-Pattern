@@ -1,0 +1,1 @@
+# :notebook_with_decorative_cover: [Design Pattern - Appendix: Builder Pattern](https://zealous-open-f6a.notion.site/Design-Pattern-Appendix-The-Builder-Pattern-e0d386a549974c03b606aa89de31f42c?pvs=4)
