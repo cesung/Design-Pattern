@@ -1,0 +1,1 @@
+# :notebook_with_decorative_cover: [Design Pattern - Appendix: Visitor Pattern](https://zealous-open-f6a.notion.site/Design-Pattern-Appendix-The-Visitor-Pattern-abe36092522140a8ab445fd24ed071b4?pvs=4)
