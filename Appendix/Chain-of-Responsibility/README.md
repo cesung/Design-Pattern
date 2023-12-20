@@ -1,0 +1,1 @@
+# :notebook_with_decorative_cover: [Design Pattern - Appendix: The Chain-of-Responsibility Pattern](https://zealous-open-f6a.notion.site/Design-Pattern-Appendix-The-Chain-of-Responsibility-Pattern-fceafb3284a64cb7b576d6eab1ede0ef?pvs=4)
