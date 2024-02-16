@@ -1,0 +1,1 @@
+# :notebook_with_decorative_cover: [Design Pattern - Appendix: Prototype Pattern](https://zealous-open-f6a.notion.site/Design-Pattern-Appendix-The-Prototype-Pattern-69e5afe6893347bcbc860a957713e342?pvs=4)
