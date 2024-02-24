@@ -1,0 +1,1 @@
+# :notebook_with_decorative_cover: [Design Pattern - Appendix: Flyweight Pattern](https://zealous-open-f6a.notion.site/Design-Pattern-Appendix-The-Flyweight-Pattern-c116952d64a54cbd9faf9932ccdd893b?pvs=4)
