@@ -4,11 +4,13 @@
     {
         public static void Main()
         {
-            var beefBugerManufacturer = new BeefBugerManufacturer();
-            IBurger beefBurger = beefBugerManufacturer.OrderBugger();
+            var beefManufacturer = new BeefManufacturer();
+            IBurger beefBurger = beefManufacturer.OrderBugger();
+            IPizza beefPizza = beefManufacturer.OrderPizza();
 
-            var veggieBugerManufacturer = new VeggieBugerManufacturer();
-            IBurger veggieBurger = veggieBugerManufacturer.OrderBugger();
+            var veggieManufacturer = new VeggieManufacturer();
+            IBurger veggieBurger = veggieManufacturer.OrderBugger();
+            IPizza veggiePizza = veggieManufacturer.OrderPizza();
         }
     }
 }

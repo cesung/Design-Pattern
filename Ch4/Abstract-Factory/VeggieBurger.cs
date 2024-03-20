@@ -9,7 +9,7 @@ namespace AbstractFactory
 
         public void Bake()
         {
-            Console.WriteLine("Bake Burger Bread for 25 minutes at 350F");
+            Console.WriteLine("Bake Burger Bread for 1 minutes at 350F");
         }
 
         public void Assemble()
